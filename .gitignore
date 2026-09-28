@@ -1,0 +1,19 @@
+node_modules
+.next
+out
+*.tsbuildinfo
+.DS_Store
+
+# Environment files — NEVER commit secrets (HINDSIGHT_API_KEY lives here)
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+!.env.example
+
+# Python analysis backend
+.venv/
+backend/.env
+__pycache__/
+*.pyc
